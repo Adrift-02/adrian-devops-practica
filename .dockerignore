@@ -1,0 +1,5 @@
+.vscode
+as.uie.venv
+__pycache
+.gitignore
+Ds_store
