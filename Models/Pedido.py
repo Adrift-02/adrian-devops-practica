@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
-from Models.Usuario import Cliente
-from Models.Producto import Producto
+from models.usuario import Cliente
+from models.producto import Producto
 
 class Pedido:
     def __init__(self, cliente: Cliente, items: list[tuple[Producto, int]]):

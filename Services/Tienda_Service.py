@@ -1,6 +1,6 @@
-from Models.Producto import Producto
+from Models.producto import Producto
 from Models.Usuario import Cliente, Administrador
-from Models.Pedido import Pedido
+from Models.pedido import Pedido
 class Tienda_Service:
     def __init__(self):
         self.productos = []
